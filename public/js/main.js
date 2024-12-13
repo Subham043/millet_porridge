@@ -77,20 +77,20 @@
     var dialia = {
 
         /* Preloader */
-        preloaderActivation: function () {
-            $('.tm-preloader').css({
-                'transform': 'translateX(-100%)'
-            });
-            $('.tm-preloader svg').delay(300).fadeOut('slow');
-        },
-        preloaderCancel: function () {
-            $('.tm-preloader').find('.tm-button').on('click', function () {
-                $('.tm-preloader').css({
-                    'transform': 'translateX(-100%)'
-                });
-                $('.tm-preloader').fadeOut('slow');
-            });
-        },
+        // preloaderActivation: function () {
+        //     $('.tm-preloader').css({
+        //         'transform': 'translateX(-100%)'
+        //     });
+        //     $('.tm-preloader svg').delay(300).fadeOut('slow');
+        // },
+        // preloaderCancel: function () {
+        //     $('.tm-preloader').find('.tm-button').on('click', function () {
+        //         $('.tm-preloader').css({
+        //             'transform': 'translateX(-100%)'
+        //         });
+        //         $('.tm-preloader').fadeOut('slow');
+        //     });
+        // },
 
         /* Meanmenu Activation */
         meanmenuActivation: function () {
@@ -735,8 +735,8 @@
             dialia.stickySidebarActive();
             dialia.datepickerActivation();
             dialia.loginPassShower();
-            dialia.preloaderActivation();
-            dialia.preloaderCancel();
+            // dialia.preloaderActivation();
+            // dialia.preloaderCancel();
         }
     };
 

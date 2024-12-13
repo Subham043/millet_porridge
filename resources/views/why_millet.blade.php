@@ -7,7 +7,7 @@
         <div class="tm-breadcrumb text-center">
             <h2>Why Us</h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{route('home')}}">Home</a></li>
                 <li>Why Us</li>
             </ul>
         </div>
@@ -16,7 +16,6 @@
 
 <main class="main-content">
 
-    <!-- About Us -->
     <div class="tm-section about-us-area bg-white tm-padding-section">
         <span class="bg-shape-2"><img src="{{ asset('images/icons/bg-shape-3.png') }}" alt="bg shape 3"></span>
         <div class="container">
@@ -41,7 +40,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 398 358">
                             <defs>
                                 <pattern id="attachedImage1" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-                                    <image xlink:href="{{ asset('images/heroslider/heroslider-image-1.jpg') }}" preserveAspectRatio="none" width="1" height="1"></image>
+                                    <image xlink:href="{{asset('images/others/about-image-1.jpg') }}" preserveAspectRatio="none" width="1" height="1"></image>
                                 </pattern>
                             </defs>
                             <path opacity="0.102" fill="rgb(0, 117, 183)" d="M82.843,22.613 C175.233,-23.488 239.443,6.649 290.825,61.522 C342.208,116.395 387.664,123.712 393.707,208.984 C399.750,294.254 313.624,341.741 274.739,347.672 C235.855,353.603 189.875,346.162 138.910,347.419 C63.098,349.289 33.144,322.675 18.231,290.376 C-2.864,244.685 19.343,229.351 6.068,175.158 C-9.838,110.222 10.571,58.677 82.843,22.613 Z"></path>
@@ -58,14 +57,13 @@
             </div>
         </div>
     </div>
-    <!--// About Us -->
 
     <div class="tm-section service-details-area bg-white tm-padding-section">
+        <span class="bg-shape-2"><img src="{{ asset('images/icons/bg-shape-3.png') }}" alt="bg shape 3"></span>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-12">
                     <div class="tm-service-details sticky-sidebar"><div class="inner-wrapper-sticky" style="position: relative;">
-                        <img class="tm-service-details-image" src="{{ asset('images/blog/blog-image-1.jpg') }}" alt="service details image">
                         <h2>Not just a Super Grain but Sprouted Again!!!</h2>
                         <p>Millets are a whole grain that’s packed with protein, antioxidants, and nutrients.
                         </p>

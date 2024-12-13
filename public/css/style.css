@@ -2139,7 +2139,8 @@ button.tm-videobutton:hover span {
 }
 
 .tm-slider-dots ul.slick-dots li.slick-active button {
-  color: #0075b7;
+  /* color: #0075b7; */
+  color: transparent;
 }
 
 .tm-slider-dots.tm-slider-dots-left ul.slick-dots {
@@ -4731,9 +4732,17 @@ button.tm-videobutton:hover span {
   margin-bottom: 5px;
 }
 
+.tm-product-actions li a img{
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+  object-position: center;
+}
+
 .tm-product-actions li a,
 .tm-product-actions li button {
-  display: inline-block;
+  display: inline-grid;
+  place-content: center;
   height: 35px;
   width: 35px;
   line-height: 33px;
