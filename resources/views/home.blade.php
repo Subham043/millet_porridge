@@ -23,22 +23,39 @@
 <!-- Main Content -->
 <main class="main-content">
 
-    <!-- About Us -->
-    <div class="tm-section about-us-area bg-grey">
-        <div class="about-image" data-bgimage="{{asset('images/others/about-image-1.jpg') }}" data-overlay="1">
-            <div class="tm-videobutton">
-                <a data-fancybox="" href="https://www.youtube.com/watch?v=Sv511KEiIJQ">
-                    <span><i class="flaticon-play-button"></i></span>
-                </a>
-            </div>
-        </div>
+    <div class="tm-section about-us-area bg-white tm-padding-section">
+        <span class="bg-shape-2"><img src="{{ asset('images/icons/bg-shape-3.png') }}" alt="bg shape 3"></span>
         <div class="container">
-            <div class="row justify-content-end">
-                <div class="col-lg-6">
-                    <div class="about-content tm-padding-section">
-                        <h2><span><span class="color-theme">About</span> Us</span></h2>
-                        <p>We at GGTC thrive to offer an epitome of healthy products in line with a redefining palate that caters and serves for a well-nourished Humankind. We practice integrity, commitment and love in every step of the process which could be of selection, quality, high standards, hygiene so on and so forth.</p>
-                        <p>Our goal is to uplift the concept of health, its importance, maintenance and endurance that could be an inheritance to generations to come, an exemplary to a healthy society. While it is important to build, create and strive for excellence, we also place the appropriate emphasis on mutual responsibility and highlight its centrality in our growth as a society. </p>
+            <div class="row">
+                <div class="col-lg-12 order-2 order-lg-1">
+                    <div class="about-content about-content-2">
+                        <blockquote>
+                            <p>“Everything is permissible for me’ – but not everything is beneficial”
+                            </p>
+                        </blockquote>
+                        <h4>(IT TAKES DISCIPLINE TO BE HEALTHY)
+                        </h4>
+                        <p>Food is one of the best gifts that God has given to us. It fuels our bodies, brings people together around a table, nourishes us, and gives us happiness. Food is not the problem, but our boundaries and issues revolving around food are the problems we face when it comes to eating.</p>
+                        <p>A balanced diet reflects our gratitude for the abundance of nourishing foods and our commitment to living in harmony.
+                        </p>
+                        <p>
+                            The principle of balance in healthy eating and making healthy food choices encourages us to adopt a varied and harmonious approach to our dietary choices. Embracing the diversity of plant-based options and prioritizing the quality of our meals, ensure our overall health and wellness. Practicing moderation helps avoid overindulgence and its negative health consequences. It’s all about finding balance in our diets and being mindful of portion sizes.
+
+                        </p>
+                        <p>Honouring our bodies certainly includes eating healthy foods that keep them functioning well.
+                        </p>
+                        <p><i>“Eat your food with gladness, and with a joyful heart.”
+                        </i></p>
+                        <h4>Not just a Super Grain but Sprouted Again!!!</h4>
+                        <p>Millets are a whole grain that’s packed with protein, antioxidants, and nutrients.
+                        </p>
+                        <p>
+                            The super power of millets is not hidden anymore from the world. It has gained its place in the culinary world again.  They have gained significant popularity in recent years due to their extraordinary nutritional benefits. Among various ways to consume millets, sprouting them is a highly recommended method. Sprouting millets enhances their nutritional profile and makes them even more beneficial for our health. For instance, Sprouted Ragi is nutritionally better as the sprouting increases the Iron content by 10 times than normal ragi.
+                        </p>
+                        <p>
+                            Include this magical grain in your diet and take a step forward towards an improved and more sustainable lifestyle.
+                        </p>
+
                         <div class="about-contentbottom">
                             <a href="{{route('why_millet')}}" class="tm-button">Read more</a>
                             <a href="tel:+918105423535" class="tm-callbutton">
@@ -51,7 +68,6 @@
             </div>
         </div>
     </div>
-    <!--// About Us -->
 
     <!--  Products Area -->
     <div class="tm-section products-area tm-padding-section bg-white">
@@ -229,120 +245,35 @@
     </div>
     <!--//  Products Area -->
 
-    <!-- Testimonial Area -->
-    <div class="tm-section testimonial-area tm-padding-section bg-grey">
-        <div class="bg-animated-shape">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+    <!-- About Us -->
+    <div class="tm-section about-us-area bg-grey">
+        <div class="about-image" data-bgimage="{{asset('images/others/about-image-1.jpg') }}" data-overlay="1">
+            <div class="tm-videobutton">
+                <a data-fancybox="" href="https://www.youtube.com/watch?v=Sv511KEiIJQ">
+                    <span><i class="flaticon-play-button"></i></span>
+                </a>
+            </div>
         </div>
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-7 col-lg-8 col-md-10 col-12">
-                    <div class="tm-section-title text-center">
-                        <h2>What Our Customers Say</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slider-active tm-slider-arrow-2">
-
-                <!-- Testimonial Single -->
-                <div class="tm-testimonial-slideritem">
-                    <div class="tm-testimonial">
-                        <div class="tm-testimonial-author">
-                            <div class="tm-testimonial-authorimage">
-                                <img src="{{asset('images/authors/author-image-1.jpg') }}" alt="author image">
-                            </div>
-                            <div class="tm-testimonial-authorinfo">
-                                <h5>Penny Beaird</h5>
-                                <h6>Financer</h6>
-                            </div>
-                        </div>
-                        <div class="tm-testimonial-content">
-                            <p>I started seeing Dr. Robinson on the recommendation of my massage therapist.
-                                Massage
-                                therapy is the science of movement and function. Massage therapy will help
-                                anybody
-                                who experiences difficulty with movement strength and pain.</p>
-                            <div class="tm-rating">
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                            </div>
+            <div class="row justify-content-end">
+                <div class="col-lg-6">
+                    <div class="about-content tm-padding-section">
+                        <h2><span><span class="color-theme">About</span> Us</span></h2>
+                        <p>We at GGTC thrive to offer an epitome of healthy products in line with a redefining palate that caters and serves for a well-nourished Humankind. We practice integrity, commitment and love in every step of the process which could be of selection, quality, high standards, hygiene so on and so forth.</p>
+                        <p>Our goal is to uplift the concept of health, its importance, maintenance and endurance that could be an inheritance to generations to come, an exemplary to a healthy society. While it is important to build, create and strive for excellence, we also place the appropriate emphasis on mutual responsibility and highlight its centrality in our growth as a society. </p>
+                        <div class="about-contentbottom">
+                            <a href="{{route('why_millet')}}" class="tm-button">Read more</a>
+                            <a href="tel:+918105423535" class="tm-callbutton">
+                                <span class="tm-callbutton-icon"><i class="zmdi zmdi-phone-in-talk"></i></span>
+                                <h3>+91-8105423535</h3>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <!--// Testimonial Single -->
-
-                <!-- Testimonial Single -->
-                <div class="tm-testimonial-slideritem">
-                    <div class="tm-testimonial">
-                        <div class="tm-testimonial-author">
-                            <div class="tm-testimonial-authorimage">
-                                <img src="{{asset('images/authors/author-image-2.jpg') }}" alt="author image">
-                            </div>
-                            <div class="tm-testimonial-authorinfo">
-                                <h5>Ludie Cremin</h5>
-                                <h6>Supervisor</h6>
-                            </div>
-                        </div>
-                        <div class="tm-testimonial-content">
-                            <p>Quae iusto consequatur consectetur velit at nulla et enim debitis. Eligendi modi
-                                consectetur laudantium. Ut quis nobis numquam omnis suscipit eum est omnis.
-                                Explicabo ipsum accusamus consectetur animi laudantium quia.</p>
-                            <div class="tm-rating">
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                                <span><i class="zmdi zmdi-star"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--// Testimonial Single -->
-
-                <!-- Testimonial Single -->
-                <div class="tm-testimonial-slideritem">
-                    <div class="tm-testimonial">
-                        <div class="tm-testimonial-author">
-                            <div class="tm-testimonial-authorimage">
-                                <img src="{{asset('images/authors/author-image-3.jpg') }}" alt="author image">
-                            </div>
-                            <div class="tm-testimonial-authorinfo">
-                                <h5>Ottilie Wisoky</h5>
-                                <h6>Marketer</h6>
-                            </div>
-                        </div>
-                        <div class="tm-testimonial-content">
-                            <p>Molestias dicta non laboriosam eum ut eos et. Dignissimos temporibus sit quis
-                                aut itaque vel. Maiores a est. Id ut aspernatur aliquam cumque aut ut alias
-                                accusamus. Minus aperiam fugiat tempora aut repellendus voluptatem debitis
-                                sequi.</p>
-                            <div class="tm-rating">
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                                <span class="active"><i class="zmdi zmdi-star"></i></span>
-                                <span><i class="zmdi zmdi-star"></i></span>
-                                <span><i class="zmdi zmdi-star"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--// Testimonial Single -->
-
             </div>
         </div>
     </div>
-    <!--// Testimonial Area -->
+    <!--// About Us -->
 
     <!-- Appointment Information Area -->
     <div class="tm-section appointment-information-area tm-padding-section bg-white">
@@ -375,19 +306,22 @@
                         <form action="#" class="tm-form" method="post" id="contact_form">
                             <div class="tm-form-inner">
                                 <div class="tm-form-field tm-form-fieldhalf">
-                                    <input type="text" required="required" placeholder="Name*">
+                                    <input type="text" required="required" id="name" placeholder="Name*">
                                 </div>
                                 <div class="tm-form-field tm-form-fieldhalf">
-                                    <input type="email" required="required" placeholder="Email*">
+                                    <input type="email" required="required" id="email" placeholder="Email*">
+                                </div>
+                                <div class="tm-form-field tm-form-fieldhalf">
+                                    <input type="text" required="required" id="phone" placeholder="Phone*">
+                                </div>
+                                <div class="tm-form-field tm-form-fieldhalf">
+                                    <input type="text" required="required" id="subject" placeholder="Subject*">
                                 </div>
                                 <div class="tm-form-field">
-                                    <input type="text" required="required" placeholder="Subject*">
+                                    <textarea name="message" cols="30" rows="5" required="required" id="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="tm-form-field">
-                                    <textarea name="message" cols="30" rows="5" placeholder="Message"></textarea>
-                                </div>
-                                <div class="tm-form-field">
-                                    <button type="submit" class="tm-button">Submit</button>
+                                    <button type="submit" class="tm-button" id="submitBtn">Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -400,5 +334,105 @@
 
 </main>
 <!--// Main Content -->
+
+@endsection
+
+@section("javascript")
+
+<script type="text/javascript" nonce="{{ csp_nonce() }}">
+const validation = new JustValidate('#contact_form', {
+                errorFieldCssClass: 'is-invalid',
+});
+validation
+    .addField('#name', [{
+                    rule: 'required',
+                    errorMessage: 'Name is required',
+    },
+    ])
+    .addField('#email', [{
+                    rule: 'required',
+                    errorMessage: 'Email is required',
+    },
+    {
+                    rule: 'email',
+                    errorMessage: 'Email is invalid',
+    },
+    ])
+    .addField('#phone', [{
+                    rule: 'required',
+                    errorMessage: 'Phone is required',
+    },
+    ])
+    .addField('#subject', [{
+                    rule: 'required',
+                    errorMessage: 'Subject is required',
+    },
+    ])
+    .addField('#message', [{
+                    rule: 'required',
+                    errorMessage: 'Message is required',
+    },
+    ])
+    .onSuccess(async (event) => {
+    var submitBtn = document.getElementById('submitBtn')
+    submitBtn.innerText = 'Submitting...';
+    submitBtn.disabled = true;
+    try {
+                    var formData = new FormData();
+                    formData.append('name', document.getElementById('name').value)
+                    formData.append('email', document.getElementById('email').value)
+                    formData.append('phone', document.getElementById('phone').value)
+                    formData.append('subject', document.getElementById('subject').value)
+                    formData.append('message', document.getElementById('message').value)
+
+                    const response = await axios.post('{{ route("contact") }}', formData)
+                    iziToast.success({
+                        title: 'Success',
+                        message: response.data.message,
+                        position: 'bottomCenter',
+                        timeout:6000
+                    });
+                    event.target.reset();
+    } catch (error) {
+                    console.log(error)
+                    if (error?.response?.data?.errors?.name) {
+                                    validation.showErrors({
+                                                    '#name': error?.response?.data?.errors?.name[0]
+                                    })
+                    }
+                    if (error?.response?.data?.errors?.email) {
+                                    validation.showErrors({
+                                                    '#email': error?.response?.data?.errors?.email[0]
+                                    })
+                    }
+                    if (error?.response?.data?.errors?.phone) {
+                                    validation.showErrors({
+                                                    '#phone': error?.response?.data?.errors?.phone[0]
+                                    })
+                    }
+                    if (error?.response?.data?.errors?.subject) {
+                                    validation.showErrors({
+                                                    '#subject': error?.response?.data?.errors?.subject[0]
+                                    })
+                    }
+                    if (error?.response?.data?.errors?.message) {
+                                    validation.showErrors({
+                                                    '#message': error?.response?.data?.errors?.message[0]
+                                    })
+                    }
+                    if (error?.response?.data?.message) {
+                                    iziToast.error({
+                                        title: 'Error',
+                                        message: error?.response?.data?.message,
+                                        position: 'bottomCenter',
+                                        timeout:6000
+                                    });
+                    }
+    } finally {
+                    submitBtn.innerText = `Submit`;
+                    submitBtn.disabled = false;
+    }
+    });
+</script>
 
 @endsection

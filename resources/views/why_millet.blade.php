@@ -64,15 +64,6 @@
             <div class="row">
                 <div class="col-lg-8 col-12">
                     <div class="tm-service-details sticky-sidebar"><div class="inner-wrapper-sticky" style="position: relative;">
-                        <h2>Not just a Super Grain but Sprouted Again!!!</h2>
-                        <p>Millets are a whole grain that’s packed with protein, antioxidants, and nutrients.
-                        </p>
-                        <p>
-                            The super power of millets is not hidden anymore from the world. It has gained its place in the culinary world again.  They have gained significant popularity in recent years due to their extraordinary nutritional benefits. Among various ways to consume millets, sprouting them is a highly recommended method. Sprouting millets enhances their nutritional profile and makes them even more beneficial for our health. For instance, Sprouted Ragi is nutritionally better as the sprouting increases the Iron content by 10 times than normal ragi.
-                        </p>
-                        <p>
-                            Include this magical grain in your diet and take a step forward towards an improved and more sustainable lifestyle.
-                        </p>
                         <h4>Benefits of SPROUTING:</h4>
                         <ul class="stylish-list">
                             <li><i class="fa fa-hand-o-right"></i> Improves Nutrient Absorption - also helps to increase energy levels, boost metabolism, and improve digestion.
@@ -127,23 +118,6 @@
                             <li><i class="fa fa-hand-o-right"></i> Palm Sugar:  mostly used natural sweetener in the traditional diet for years. It is a very good source of iron, potassium, zinc, and magnesium.  It contains inulin, which is a dietary fibre belonging to the group of prebiotics, supporting good gut health by benefiting the good probiotics in the digestive system. Rich in antioxidants, supports digestive and heart health, boost in energy levels.
                             </li>
                         </ul>
-                        <blockquote>
-                            <p>“Everything is permissible for me’ – but not everything is beneficial”
-                            </p>
-                        </blockquote>
-                        <h4>(IT TAKES DISCIPLINE TO BE HEALTHY)
-                        </h4>
-                        <p>Food is one of the best gifts that God has given to us. It fuels our bodies, brings people together around a table, nourishes us, and gives us happiness. Food is not the problem, but our boundaries and issues revolving around food are the problems we face when it comes to eating.</p>
-                        <p>A balanced diet reflects our gratitude for the abundance of nourishing foods and our commitment to living in harmony.
-                        </p>
-                        <p>
-                            The principle of balance in healthy eating and making healthy food choices encourages us to adopt a varied and harmonious approach to our dietary choices. Embracing the diversity of plant-based options and prioritizing the quality of our meals, ensure our overall health and wellness. Practicing moderation helps avoid overindulgence and its negative health consequences. It’s all about finding balance in our diets and being mindful of portion sizes.
-
-                        </p>
-                        <p>Honouring our bodies certainly includes eating healthy foods that keep them functioning well.
-                        </p>
-                        <p><i>“Eat your food with gladness, and with a joyful heart.”
-                        </i></p>
                     </div></div>
                 </div>
                 <div class="col-lg-4 col-12">

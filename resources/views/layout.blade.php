@@ -4,6 +4,7 @@
     <title>Dialia - Registered Massage Therapy HTML Template</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    @cspMetaTag(App\Http\Policies\ContentSecurityPolicy::class)
     <link rel="apple-touch-icon" href="{{asset('images/favicon.png') }}">
     <link rel="shortcut icon" href="{{asset('images/favicon.ico') }}">
 
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{asset('css/plugins.css') }}">
     <link rel="stylesheet" href="{{asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{asset('css/iziToast.min.css') }}">
 
     <link rel="stylesheet" href="{{asset('css/custom.css') }}">
 </head>
@@ -101,7 +103,11 @@
     <script src="{{asset('js/popper.min.js') }}"></script>
     <script src="{{asset('js/bootstrap.min.js') }}"></script>
     <script src="{{asset('js/plugins.js') }}"></script>
+    <script src="{{asset('js/iziToast.min.js') }}"></script>
+    <script src="{{asset('js/just-validate.production.min.js') }}"></script>
+    <script src="{{asset('js/axios.min.js') }}"></script>
     <script src="{{asset('js/main.js') }}"></script>
+    @yield("javascript")
     <!--// Js Files -->
 
 

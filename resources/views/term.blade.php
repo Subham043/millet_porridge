@@ -37,7 +37,7 @@
 <p><strong>Country</strong> refers to: Karnataka,  India</p>
 </li>
 <li>
-<p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to MilletsMove.</p>
+<p><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Golden Gate Trading Centre, No.32, Bagalur post, Bagalur, Yelahanka Taluk, Bangalore North, 562149.</p>
 </li>
 <li>
 <p><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
