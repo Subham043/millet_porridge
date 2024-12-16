@@ -86,7 +86,7 @@
             <!-- Footer -->
             <div class="footer-bottomarea">
                 <div class="container">
-                    <p class="footer-copyright">Copyright © {{ date('Y') }} by <a href="#">millets porridge</a>. All rights
+                    <p class="footer-copyright">Copyright © {{ date('Y') }} by <a href="{{route('home')}}">MilletsMove</a>. All rights
                         reserved</p>
                 </div>
             </div>

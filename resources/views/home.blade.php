@@ -10,7 +10,7 @@
 
         <!-- Heroslider Single -->
         <div class="heroslider-singleslider d-flex align-items-center">
-            
+
         </div>
         <!--// Heroslider Single -->
 
@@ -29,12 +29,14 @@
             <div class="row">
                 <div class="col-lg-12 order-2 order-lg-1">
                     <div class="about-content about-content-2">
-                        <blockquote>
-                            <p>“Everything is permissible for me’ – but not everything is beneficial”
-                            </p>
-                        </blockquote>
-                        <h4>(IT TAKES DISCIPLINE TO BE HEALTHY)
-                        </h4>
+                        <div class="text-center">
+                            <blockquote class="text-center">
+                                <p>“Everything is permissible for me’ – but not everything is beneficial”
+                                </p>
+                            </blockquote>
+                            <h4>(IT TAKES DISCIPLINE TO BE HEALTHY)
+                            </h4>
+                        </div>
                         <p>Food is one of the best gifts that God has given to us. It fuels our bodies, brings people together around a table, nourishes us, and gives us happiness. Food is not the problem, but our boundaries and issues revolving around food are the problems we face when it comes to eating.</p>
                         <p>A balanced diet reflects our gratitude for the abundance of nourishing foods and our commitment to living in harmony.
                         </p>
@@ -162,7 +164,7 @@
                     </div>
                 </div>
                 <!--// Single Product -->
-                
+
                 <div class="col-lg-4 col-md-6 col-12 mb-30">
                     <div class="tm-product">
                         <div class="tm-product-image">
@@ -187,7 +189,7 @@
                     </div>
                 </div>
                 <!--// Single Product -->
-    
+
                 <!-- Single Product -->
                 <div class="col-lg-4 col-md-6 col-12 mb-30">
                     <div class="tm-product">
@@ -213,7 +215,7 @@
                     </div>
                 </div>
                 <!--// Single Product -->
-    
+
                 <!-- Single Product -->
                 <div class="col-lg-4 col-md-6 col-12 mb-30">
                     <div class="tm-product">
