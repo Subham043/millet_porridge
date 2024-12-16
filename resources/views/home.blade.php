@@ -31,8 +31,8 @@
                     <div class="about-content about-content-2">
                         <div class="text-center">
                             <blockquote class="text-center">
-                                <p>“Everything is permissible for me’ – but not everything is beneficial”
-                                </p>
+                                <p><b>“Everything is permissible for me’ – but not everything is beneficial”
+                                </b></p>
                             </blockquote>
                             <h4>(IT TAKES DISCIPLINE TO BE HEALTHY)
                             </h4>
