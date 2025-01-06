@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Heroslider Area -->
-<div class="heroslider-area" data-bgimage="{{asset('images/bg/bg-image-5.webp') }}">
+<div class="heroslider-area" data-bgimage="{{asset('images/bg/bg-image-10.jpg') }}">
 
     <!-- Heroslider Slider -->
     <div class="heroslider-slider heroslider-animated tm-slider-dots tm-slider-dots-left">
@@ -306,19 +306,22 @@
                         <form action="#" class="tm-form" method="post" id="contact_form">
                             <div class="tm-form-inner">
                                 <div class="tm-form-field tm-form-fieldhalf">
-                                    <input type="text" required="required" id="name" placeholder="Name*">
+                                    <input type="text" required="required" id="name" name="name" placeholder="Name*">
                                 </div>
                                 <div class="tm-form-field tm-form-fieldhalf">
-                                    <input type="email" required="required" id="email" placeholder="Email*">
+                                    <input type="email" required="required" id="email" name="email" placeholder="Email*">
                                 </div>
                                 <div class="tm-form-field tm-form-fieldhalf">
-                                    <input type="text" required="required" id="phone" placeholder="Phone*">
+                                    <input type="text" required="required" id="phone" name="phone" placeholder="Phone*">
                                 </div>
                                 <div class="tm-form-field tm-form-fieldhalf">
-                                    <input type="text" required="required" id="subject" placeholder="Subject*">
+                                    <input type="text" required="required" id="subject" name="subject" placeholder="Subject*">
                                 </div>
                                 <div class="tm-form-field">
                                     <textarea name="message" cols="30" rows="5" required="required" id="message" placeholder="Message"></textarea>
+                                </div>
+                                <div class="tm-form-field">
+                                    {!! NoCaptcha::display(['id' => 're_captcha']) !!}
                                 </div>
                                 <div class="tm-form-field">
                                     <button type="submit" class="tm-button" id="submitBtn">Submit</button>
@@ -338,7 +341,7 @@
 @endsection
 
 @section("javascript")
-
+{!! NoCaptcha::renderJs() !!}
 <script type="text/javascript" nonce="{{ csp_nonce() }}">
 const validation = new JustValidate('#contact_form', {
                 errorFieldCssClass: 'is-invalid',
@@ -378,12 +381,8 @@ validation
     submitBtn.innerText = 'Submitting...';
     submitBtn.disabled = true;
     try {
-                    var formData = new FormData();
-                    formData.append('name', document.getElementById('name').value)
-                    formData.append('email', document.getElementById('email').value)
-                    formData.append('phone', document.getElementById('phone').value)
-                    formData.append('subject', document.getElementById('subject').value)
-                    formData.append('message', document.getElementById('message').value)
+                    const formElement = document.getElementById('contact_form');
+                    var formData = new FormData(formElement);
 
                     const response = await axios.post('{{ route("contact") }}', formData)
                     iziToast.success({
@@ -431,6 +430,7 @@ validation
     } finally {
                     submitBtn.innerText = `Submit`;
                     submitBtn.disabled = false;
+                    grecaptcha.reset();
     }
     });
 </script>

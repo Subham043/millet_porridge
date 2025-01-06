@@ -38,6 +38,8 @@ class ContentSecurityPolicy extends Basic
         ->addDirective(Directive::IMG, 'i.ytimg.com')
         ->addDirective(Directive::FONT, 'fonts.gstatic.com')
         ->addDirective(Directive::STYLE, 'fonts.googleapis.com')
+        ->addDirective(Directive::SCRIPT, 'www.google.com')
+        ->addDirective(Directive::SCRIPT, 'www.gstatic.com')
         ->addDirective(Directive::FRAME, 'www.google.com')
         ->addDirective(Directive::FRAME, 'maps.google.com')
         ->addDirective(Directive::FRAME, 'www.youtube-nocookie.com')
