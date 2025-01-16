@@ -3,19 +3,9 @@
 @section('content')
 
 <!-- Heroslider Area -->
-<div class="heroslider-area" data-bgimage="{{asset('images/bg/bg-image-10.jpg') }}">
+<div class="heroslider-area" data-bgimage="{{asset('images/bg/bg-image-12.jpg') }}">
 
-    <!-- Heroslider Slider -->
-    <div class="heroslider-slider heroslider-animated tm-slider-dots tm-slider-dots-left">
-
-        <!-- Heroslider Single -->
-        <div class="heroslider-singleslider d-flex align-items-center">
-
-        </div>
-        <!--// Heroslider Single -->
-
-    </div>
-    <!--// Heroslider Slider -->
+    
 
 </div>
 <!--// Heroslider Area -->
@@ -249,7 +239,7 @@
 
     <!-- About Us -->
     <div class="tm-section about-us-area bg-grey">
-        <div class="about-image" data-bgimage="{{asset('images/others/about-image-1.jpg') }}" data-overlay="1">
+        <div class="about-image" data-bgimage="{{asset('images/bg/bg-image-11.jpg') }}" data-overlay="1">
             <div class="tm-videobutton">
                 <a data-fancybox="" href="https://www.youtube.com/watch?v=Sv511KEiIJQ">
                     <span><i class="flaticon-play-button"></i></span>
@@ -287,9 +277,8 @@
                         <div class="tm-information-timing">
                             <h5>Opening Hours</h5>
                             <ul>
-                                <li>Monday - Friday <span>12:00 - 17:00</span></li>
-                                <li>Saturday <span>15:00 - 18:00</span></li>
-                                <li>Sunday <span>Closed</span></li>
+                                <li>Monday - Friday <span>09:00 am - 05:00 pm</span></li>
+                                <li>Saturday - Sunday <span>Closed</span></li>
                             </ul>
                         </div>
                         <div class="tm-information-contact">

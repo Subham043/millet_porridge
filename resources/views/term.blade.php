@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{asset('images/bg/breadcrumb-bg.jpg')}}" data-black-overlay="4" style="background-image: url({{asset('images/bg/breadcrumb-bg.jpg')}});">
+<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{asset('images/bg/bg-image-12.jpg')}}" data-black-overlay="4" style="background-image: url({{asset('images/bg/breadcrumb-bg.jpg')}});">
     <div class="container">
         <div class="tm-breadcrumb text-center">
             <h2>Terms & Condition</h2>
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-12">
-                    <div class="tm-service-details sticky-sidebar"><div class="inner-wrapper-sticky" style="position: relative;">
+                    <div class="tm-service-details sticky-sidebar"><div class="inner-wrapper-sticky">
                         <h1>Terms & Condition</h1>
 <p>Last updated: December 13, 2024</p>
 <p>Please read these terms and conditions carefully before using Our Service.</p>
@@ -114,7 +114,7 @@ You agree that the original English text shall prevail in the case of a dispute.
                     </div></div>
                 </div>
                 <div class="col-lg-4 col-12">
-                    <div class="sticky-sidebar" style=""><div class="inner-wrapper-sticky" style="position: relative;">
+                    <div class="sticky-sidebar"><div class="inner-wrapper-sticky">
                         <div class="widgets widgets-blog">
 
                             <!-- Single Widget -->
@@ -126,10 +126,8 @@ You agree that the original English text shall prevail in the case of a dispute.
                                     <li><b>Email :</b><a href="mailto:contacts@milletsmove.com">contacts@milletsmove.com</a></li>
                                 </ul>
                                 <ul class="widget-contact-social">
-                                    <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
                                     <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <!--// Single Widget -->

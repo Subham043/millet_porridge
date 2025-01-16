@@ -1,12 +1,12 @@
 <!DOCTYPE html><html lang="zxx"><head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Dialia - Registered Massage Therapy HTML Template</title>
+    <title>GGTG</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     @cspMetaTag(App\Http\Policies\ContentSecurityPolicy::class)
-    <link rel="apple-touch-icon" href="{{asset('images/favicon.png') }}">
-    <link rel="shortcut icon" href="{{asset('images/favicon.ico') }}">
+    <link rel="apple-touch-icon" href="{{asset('images/logo/logo.png') }}">
+    <link rel="shortcut icon" href="{{asset('images/logo/logo.png') }}">
 
     <!-- Google Font (font-family: 'Open Sans', sans-serif;) -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="{{asset('css/iziToast.min.css') }}">
 
     <link rel="stylesheet" href="{{asset('css/custom.css') }}">
+
+    @yield("css")
 </head>
 
 <body>

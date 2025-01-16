@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{asset('images/bg/breadcrumb-bg.jpg')}}" data-black-overlay="4" style="background-image: url({{asset('images/bg/breadcrumb-bg.jpg')}});">
+<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{asset('images/bg/bg-image-12.jpg')}}" data-black-overlay="4">
     <div class="container">
         <div class="tm-breadcrumb text-center">
             <h2>Why Us</h2>
@@ -40,10 +40,10 @@
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 398 358">
                             <defs>
                                 <pattern id="attachedImage1" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-                                    <image xlink:href="{{asset('images/others/about-image-1.jpg') }}" preserveAspectRatio="none" width="1" height="1"></image>
+                                    <image xlink:href="{{asset('images/bg/bg-image-11.jpg') }}" preserveAspectRatio="none" width="1" height="1"></image>
                                 </pattern>
                             </defs>
-                            <path opacity="0.102" fill="rgb(0, 117, 183)" d="M82.843,22.613 C175.233,-23.488 239.443,6.649 290.825,61.522 C342.208,116.395 387.664,123.712 393.707,208.984 C399.750,294.254 313.624,341.741 274.739,347.672 C235.855,353.603 189.875,346.162 138.910,347.419 C63.098,349.289 33.144,322.675 18.231,290.376 C-2.864,244.685 19.343,229.351 6.068,175.158 C-9.838,110.222 10.571,58.677 82.843,22.613 Z"></path>
+                            <path opacity="0.102" fill="rgba(255, 199, 82, 0.21)" d="M82.843,22.613 C175.233,-23.488 239.443,6.649 290.825,61.522 C342.208,116.395 387.664,123.712 393.707,208.984 C399.750,294.254 313.624,341.741 274.739,347.672 C235.855,353.603 189.875,346.162 138.910,347.419 C63.098,349.289 33.144,322.675 18.231,290.376 C-2.864,244.685 19.343,229.351 6.068,175.158 C-9.838,110.222 10.571,58.677 82.843,22.613 Z"></path>
                             <path fill="url(#attachedImage1)" d="M152.967,0.590 C250.043,-6.027 295.075,43.373 320.013,109.616 C344.951,175.858 381.888,198.656 356.382,274.898 C330.877,351.140 238.755,361.226 202.759,352.311 C166.763,343.397 129.414,320.302 84.587,302.958 C17.905,277.158 1.427,243.209 0.097,209.764 C-1.784,162.451 23.084,157.167 31.080,105.300 C40.661,43.151 77.029,5.768 152.967,0.590 Z"></path>
                             <path fill="rgba(0,0,0,0.1)" d="M152.967,0.590 C250.043,-6.027 295.075,43.373 320.013,109.616 C344.951,175.858 381.888,198.656 356.382,274.898 C330.877,351.140 238.755,361.226 202.759,352.311 C166.763,343.397 129.414,320.302 84.587,302.958 C17.905,277.158 1.427,243.209 0.097,209.764 C-1.784,162.451 23.084,157.167 31.080,105.300 C40.661,43.151 77.029,5.768 152.967,0.590 Z"></path>
                         </svg>
@@ -63,7 +63,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-12">
-                    <div class="tm-service-details sticky-sidebar"><div class="inner-wrapper-sticky" style="position: relative;">
+                    <div class="tm-service-details sticky-sidebar"><div class="inner-wrapper-sticky">
                         <h4>Benefits of SPROUTING:</h4>
                         <ul class="stylish-list">
                             <li><i class="fa fa-hand-o-right"></i> Improves Nutrient Absorption - also helps to increase energy levels, boost metabolism, and improve digestion.
@@ -121,7 +121,7 @@
                     </div></div>
                 </div>
                 <div class="col-lg-4 col-12">
-                    <div class="sticky-sidebar" style=""><div class="inner-wrapper-sticky" style="position: relative;">
+                    <div class="sticky-sidebar"><div class="inner-wrapper-sticky">
                         <div class="widgets widgets-blog">
 
                             <!-- Single Widget -->
@@ -133,10 +133,8 @@
                                     <li><b>Email :</b><a href="mailto:contacts@milletsmove.com">contacts@milletsmove.com</a></li>
                                 </ul>
                                 <ul class="widget-contact-social">
-                                    <li><a href="#"><i class="zmdi zmdi-twitter"></i></a></li>
                                     <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="zmdi zmdi-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <!--// Single Widget -->
