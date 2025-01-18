@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{asset('images/bg/bg-image-12.jpg')}}" data-black-overlay="4" style="background-image: url({{asset('images/bg/breadcrumb-bg.jpg')}});">
+<div class="tm-breadcrumb-area tm-padding-section" data-bgimage="{{asset('images/bg/breadcrumb-bg2.jpg')}}" data-black-overlay="4" style="background-image: url({{asset('images/bg/breadcrumb-bg.jpg')}});">
     <div class="container">
         <div class="tm-breadcrumb text-center">
             <h2>Terms & Condition</h2>
